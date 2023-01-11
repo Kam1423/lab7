@@ -108,12 +108,12 @@ class _MyWidgetState extends State<MyFirstPage> {
           ElevatedButton(
               onPressed: () {
                 print(_wight);
-                if(_formkey.currentState!.validate()){
-                  Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                  builder: (context) => const MySecondPage()));
-                }
+                // if(_formkey.currentState!.validate()){
+                //   Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //   builder: (context) => const MySecondPage()));
+                // }
               },
               child: Text('คำนวน'))
           //-------------------------end Button-------------------------
